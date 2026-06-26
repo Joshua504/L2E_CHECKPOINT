@@ -20,7 +20,7 @@ func main() {
 	charMap := contentSpliter(string(content))
 	//fmt.Println(charMap)
 
-	result := getCharacter("hi", charMap)
+	result := getCharacter("!", charMap)
 	for _, line := range printAsciiRow(result) {
 		fmt.Println(line)
 	}
